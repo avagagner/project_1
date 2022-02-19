@@ -1,0 +1,43 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+       "Apartment": "The Abigail "
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.68442534236152,
+          45.53462601492784
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+       "Apartment": "The Ramona"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -122.68544765304834,
+          45.53395610510528
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Apartment": "Modera Pearl"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -122.68480204489414,
+          45.53334476246238
+        ]
+      }
+    }
+  ]
+}
