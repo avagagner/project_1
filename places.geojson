@@ -29,6 +29,19 @@
     {
       "type": "Feature",
       "properties": {
+       "Apartment": "The Parker"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -122.68369511140362,
+          45.53314983743478
+        ]
+      }
+    },
+    
+    {
+      "type": "Feature",
+      "properties": {
         "Apartment": "Modera Pearl"
       },
       "geometry": {
