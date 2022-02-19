@@ -38,6 +38,78 @@
         ]
       }
     },
+    {
+      "type": "Feature",
+      "properties": {
+       "Gym": "Movement Portland"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+        -122.68600841539424,
+         45.53305775381471
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+       "Gym": "Barre3"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+        -122.68166631343185,
+         45.53058318529549
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+       "Food/Drink": "Ovation Coffee and Tea"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+       -122.68125528396799,
+        45.53247739359592
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+       "Food/Drink": "Tea Bar NW"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+       -122.68202343833148,
+        45.53156438374936
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+       "Food/Drink": "Tea Bar NW"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+      -122.68261966294622,
+       45.533047584924645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+       "Food/Drink": "The Fields Bar and Grill"},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+      -122.6825596062627,
+      45.53124470690273
+        ]
+      }
+    },
     
     {
       "type": "Feature",
