@@ -195,12 +195,12 @@ var geojsonFeature = {
   ]
 };
 
-L.geoJSON(geojsonFeature, {
-    onEachFeature: onEachFeature
-}).addTo(map);
-
  // load GeoJSON from an external file
   $.getJSON("https://opendata.arcgis.com/datasets/03c7ba620be449889ae90832dae56a44_241.geojson",function(data){
     // add GeoJSON layer to the map once the file is loaded
     L.geoJson(data).addTo(map);
-  });
+    }); 
+
+L.geoJSON(geojsonFeature, {
+    onEachFeature: onEachFeature
+}).addTo(map);
