@@ -205,12 +205,13 @@ L.geoJSON(geojsonFeature, {
     onEachFeature: onEachFeature
 }).addTo(map);
 
-$.getJSON("https://opendata.arcgis.com/datasets/5bd9cf051b7d4938aa93581b04d71be5_48.geojson",function(data){
+$.getJSON("https://opendata.arcgis.com/datasets/935e774546cf4383a881a9c12c182e6e_184.geojson",function(data2){
     // add GeoJSON layer to the map once the file is loaded
-    L.geoJson(data).addTo(map);
+    L.geoJson(data2).addTo(map);
     }); 
 
 L.geoJSON(geojsonFeature, {
     onEachFeature: onEachFeature
 }).addTo(map);
+
 
