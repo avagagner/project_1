@@ -27,8 +27,8 @@ var geojsonFeature = {
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -122.68442534236152,
-          45.53462601492784
+          -122.68519704491162,
+          45.534623469197875
         ]
       }
     },
@@ -204,3 +204,13 @@ var geojsonFeature = {
 L.geoJSON(geojsonFeature, {
     onEachFeature: onEachFeature
 }).addTo(map);
+
+$.getJSON("https://opendata.arcgis.com/datasets/5bd9cf051b7d4938aa93581b04d71be5_48.geojson",function(data){
+    // add GeoJSON layer to the map once the file is loaded
+    L.geoJson(data).addTo(map);
+    }); 
+
+L.geoJSON(geojsonFeature, {
+    onEachFeature: onEachFeature
+}).addTo(map);
+
